@@ -1,0 +1,83 @@
+
+
+* { box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;}
+
+
+body { font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  background:  lightgrey;
+  color: #404040;}
+
+
+
+.main-nav,
+.main-nav__list {
+  width: 100%;
+}
+
+.main-nav__list {
+  padding: 0;
+  margin:  0;
+  margin-bottom: 1em;
+}
+
+.main-nav__list__item {
+  list-style: none;
+}
+
+/* Ab einer Mindestbreite von 720px soll das Item eine inline-block Element sein. */
+
+@media only screen and (min-width: 720px) {
+  .main-nav__list__item {
+    display: inline-block;
+  }
+}
+
+.main-nav__list__item a {
+  display: inline-block;
+  width: 100%;
+  padding: 2em;
+  text-decoration: none;
+  color: grey;
+}
+
+.main-nav__list__item a:hover,
+.main-nav__list__item a.active {
+  background: grey;
+  color: white;
+}
+
+/* Angaben zum genrellen Layout */
+
+.wrapper {
+  width: 100%;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  height:1000px;
+}
+.header{
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background:url(../images/Header.png);
+  padding-top: 15%;
+  display: inline-block;
+}
+
+
+
+  .slideshow img {
+    display: block;
+    width: 100%;
+  }
+
+  .carousel-cell {
+    width: 100%;
+  }
