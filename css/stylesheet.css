@@ -87,7 +87,7 @@ img {
   }
 }
 .inline-block{
-  background-color:#e6f3ff 
+  background-color:#e6f3ff
 }
 .pictures{
   max-width: 1000px;
@@ -188,11 +188,12 @@ img {
 
 .contacthintergrund{
   background-color: #e6f3ff;
-  margin: 20 20;
+  margin: 40 20;
   height: 10%;
   padding: 2.5% 2.5%;
   width: 35%;
   text-align: center;
+
 }
 .contacthintergrund:hover{
   background-color:#0099cc;
@@ -225,7 +226,6 @@ img {
  display: block;
  max-width: 100%;
  max-height: 100%;
- /* dim unselected */
  opacity: 0.7;
  -webkit-transform: scale(0.85);
          transform: scale(0.85);
@@ -323,13 +323,13 @@ img {
 
 }
 
-/* Was passiert ab 720px */
+
 
 @media only screen and (min-width: 720px) {
   ...
 }
 
-/* Was passiert ab 980px */
+
 
 @media only screen and (min-width: 980px) {
   ...
